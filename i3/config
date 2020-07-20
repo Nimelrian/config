@@ -110,7 +110,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec alacritty
-bindsym $mod+Return exec alacritty -e tmux
+bindsym $mod+Return exec alacritty -e "tmux"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -327,7 +327,7 @@ set_from_resource $term_color15    color15
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar
-	status_command i3status -c ~/.config/i3status/i3status.conf
+	status_command i3status-rs ~/.config/i3/i3status-rs-config.toml
 	position bottom
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
