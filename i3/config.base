@@ -56,6 +56,7 @@ bindsym $mod+Shift+8 move container to workspace $ws_chat; workspace $ws_chat
 # Open applications on specific workspaces
 assign [class="firefox"] $ws_web
 assign [class="discord"] $ws_chat
+assign [class="slack"] $ws_chat
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
