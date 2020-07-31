@@ -1,5 +1,11 @@
-theme = "solarized-dark"
-icons = "awesome"
+[theme]
+name = "solarized-dark"
+
+[theme.overrides]
+idle_bg = "#080808"
+
+[[icons]]
+name = "awesome5"
 
 [[block]]
 block = "disk_space"
@@ -30,6 +36,12 @@ format = "{1m}"
 block = "sound"
 
 [[block]]
+block = "keyboard_layout"
+driver = "setxkbmap"
+interval = 1
+
+[[block]]
 block = "time"
-interval = 60
+interval = 1
 format = "%a %d/%m %R"
+
