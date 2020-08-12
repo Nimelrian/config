@@ -10,8 +10,34 @@ font:
     style: Italic
   size: 12
 
+colors:
+  primary:
+    background: '#282828'
+    foreground: '#ABB2BF'
+      
+  normal:
+    black:   '#1E2127'
+    red:     '#E06C75'
+    green:   '#98C379'
+    yellow:  '#FFA71A'
+    blue:    '#61AFEF'
+    magenta: '#DD78EE'
+    cyan:    '#5DE9CD'
+    white:   '#ABB2BF'
+  
+  bright:
+    black:   '#1E2127'
+    red:     '#EDABB0'
+    green:   '#BED9AB'
+    yellow:  '#FFC05C'
+    blue:    '#A2D0F6'
+    magenta: '#ECB6F6'
+    cyan:    '#93F0DE'
+    white:   '#D0D4DC'
+
 window:
   padding:
     x: 4
     y: 4
+
 
